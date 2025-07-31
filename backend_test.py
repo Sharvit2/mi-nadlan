@@ -2,6 +2,7 @@ import requests
 import sys
 import json
 from datetime import datetime
+import urllib.parse
 
 class MiNadlanAPITester:
     def __init__(self, base_url="http://localhost:8001"):
